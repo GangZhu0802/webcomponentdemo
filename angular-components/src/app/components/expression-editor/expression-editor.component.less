@@ -1,0 +1,19 @@
+// @import url('mtell-lignt.less');
+
+.expression-editor {
+  width: 100%;
+  height: 120px;
+  border: 1px solid grey;
+  outline: none;
+  padding: 10px;
+  overflow-y: auto;
+  white-space: pre-wrap;
+
+  &.has-error {
+    border: 1px solid red;
+  }
+
+  .text-error {
+    color: red;
+  }
+}
